@@ -1,6 +1,16 @@
 h1{
-    color:#7ed957 ;
+    color: #ffffff;
     text-align:center;
+
+}
+h2{
+    color:#7ed957 ;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0 #000, /* Sombra para cima e para esquerda */
+     1px -1px 0 #000,/*Sombra para cima e para direita */
+    -1px 1px 0 #000, /* Sombra para baixo e para esquerda */
+     1px 1px 0 #000, /* sombra para baixo e para direita */
 }
 body{
     background-color: #6b3dba;
